@@ -3,28 +3,47 @@ layout: default
 title: Home
 ---
 
-<div class="home">
-  <section>
-    <h2 class="page-heading">About me</h2>
-  </section>
+<section>
+  <h2 class="page-heading">About me</h2>
 
-  <section>
-    <h2 class="page-heading">Curriculum Vitae</h2>
-  </section>
+  <p>
+    Hi! I'm a software developer from Croatia.
+  </p>
 
-  <footer>
-    <div class="fa-2x contact-info">
-      <a href="https://www.linkedin.com/in/ivankraljevic/" target="_blank">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
+  <p>
+    I started my professional carrier at <a href="http://www.ingemark.com/" target="_blank">Ingemark</a>
+    as a fullstack developer.
+  </p>
 
-      <a href="https://github.com/ivankraljevic" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
+  <p>
+    During my rather short career, I've worked on various projects written in various programming languages
+    such as Java, Ruby and JavaScript.
+    <br>
+    Java remains my preferred and mostly used language and somehow I'm most comfortable writing stuff in it.
+    <br>
+    Beside that, I'm very interested in the Rust programming language and I would really like to use it professionally one day.
+  </p>
 
-      <a href="mailto:{{ site.author.email }}">
-        <i class="far fa-envelope"></i>
-      </a>
-    </div>
-  </footer>
-</div>
+  <h2 class="page-heading">Curriculum Vitae</h2>
+  View and download by clicking on the link:
+  <a href="{{ site.author.cvurl }}" target="_blank">
+    <i class="fab fa-google-drive"></i>
+    Download
+  </a>
+</section>
+
+<footer>
+  <div class="fa-2x contact-info">
+    <a href="https://www.linkedin.com/in/ivankraljevic/" target="_blank">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+
+    <a href="https://github.com/ivankraljevic" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+
+    <a href="mailto:{{ site.author.email }}">
+      <i class="far fa-envelope"></i>
+    </a>
+  </div>
+</footer>
