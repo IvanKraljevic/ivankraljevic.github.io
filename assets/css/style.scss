@@ -1,0 +1,17 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+footer {
+  text-align: center;
+  border-top: 1px solid #434343;
+
+  .contact-info {
+    padding: 5px 0px;
+
+    a {
+      padding: 0px 8px;
+    }
+  }
+}
